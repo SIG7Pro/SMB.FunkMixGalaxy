@@ -3,7 +3,7 @@
 
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Super Mario Bros: Funk Mix" file="Funk Mix" packageName="com.ninjamuffin99.funkin" package="com.ninjamuffin99.funkin" main="Main" version="0.2.7.1" company="ninjamuffin99" />
+	<app title="Super Funkin' Galaxy - Funk Mix Galaxy" file="FunkinGalaxy" packageName="com.GalaxyFunkMix.funkin" package="com.GalaxyFunkMix.funkin" main="Main" version="Demo" company="AARE" />
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
@@ -93,5 +93,7 @@
 	<icon path="art/icon256.png" size='256'/>
 	<icon path="art/icon512.png" size='512'/>
 	<icon path="art/iconOG.png" />
+	
+		<!-- luigi your so freakin sexy -->
 
 </project>
