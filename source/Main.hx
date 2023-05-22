@@ -64,7 +64,8 @@ class Main extends Sprite
 	// class action variables
 	public static var gameWidth:Int = 960; // Width of the game in pixels (might be less / more in actual pixels depending on your zoom).
 	public static var gameHeight:Int = 720; // Height of the game in pixels (might be less / more in actual pixels depending on your zoom).
-
+	//Actual 4:3, wow!
+	
 	public static var mainClassState:Class<FlxState> = Init; // Determine the main class state of the game
 	public static var framerate:Int = 120; // How many frames per second the game should run at.
 
@@ -173,7 +174,7 @@ class Main extends Sprite
 		#end
 
 		// test initialising the player settings
-		PlayerSettings.init();
+		PlayerSettings.init(); //haha british innit haha
 
 		// if you're reading this in the future I've added my own FPS counter below! hopefully...
 		// yeah dw I'm getting started on it fffff
@@ -251,7 +252,7 @@ class Main extends Sprite
 		dateNow = StringTools.replace(dateNow, " ", "_");
 		dateNow = StringTools.replace(dateNow, ":", "'");
 
-		path = "./crash/" + "FE_" + dateNow + ".txt";
+		path = "./crash/" + "Galaxy_" + dateNow + ".txt";
 
 		for (stackItem in callStack)
 		{
@@ -264,7 +265,7 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/Yoshubs/Forever-Engine";
+		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/SG7Pro/SMB.FunkMixGalaxy";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
